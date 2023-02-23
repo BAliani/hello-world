@@ -15,5 +15,17 @@ pipeline {
       }
     
     }
+    stage ('publish') {
+      steps {
+        echo 'publishing....!'
+      }
+    
+    }
+    stage ('deploy') {
+      steps {
+        echo 'deploying....!'
+      }
+    
+    }
   }
 }
